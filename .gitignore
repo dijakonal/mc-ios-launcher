@@ -1,0 +1,46 @@
+# Build outputs
+build/
+*.ipa
+*.xcarchive
+*.dSYM
+
+# Java build
+JavaApp/build/
+JavaApp/sources.txt
+Natives/launcher.jar
+Natives/libjnibridge.dylib
+
+# Downloaded natives (large binaries)
+Natives/SDL3/
+Natives/LWJGL/
+Natives/OpenJDK/
+Natives/MobileGlues/
+Natives/*.dylib
+Natives/*.so
+
+# Xcode
+*.xcodeproj/project.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Test/preview outputs
+previews/
+*.svg
+
+# Local config
+local.properties
+config.local.json

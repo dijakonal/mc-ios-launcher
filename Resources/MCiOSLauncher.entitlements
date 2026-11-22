@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Required for JIT - allows debugger attachment -->
+    <key>get-task-allow</key>
+    <true/>
+    
+    <!-- Required for StikDebug JIT integration -->
+    <key>com.apple.security.application-groups</key>
+    <array>
+        <string>group.com.mcioslauncher.jit</string>
+    </array>
+    
+    <!-- Required for local network (SideJITServer, AltServer) -->
+    <key>com.apple.developer.networking.wifi-info</key>
+    <true/>
+    
+    <!-- Required for background JIT refresh -->
+    <key>com.apple.developer.background-tasks</key>
+    <true/>
+    
+    <!-- Required for file access (game instances, assets) -->
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true/>
+    
+    <!-- Required for Microsoft auth web views -->
+    <key>com.apple.security.network.client</key>
+    <true/>
+    
+    <!-- Required for local HTTP server (Online LAN feature) -->
+    <key>com.apple.security.network.server</key>
+    <true/>
+    
+    <!-- Allow dylib loading (for native libraries) -->
+    <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+    <true/>
+    <key>com.apple.security.cs.disable-executable-page-protection</key>
+    <true/>
+    
+    <!-- Required for JIT on iOS 17+ -->
+    <key>com.apple.developer.jit</key>
+    <true/>
+</dict>
+</plist>

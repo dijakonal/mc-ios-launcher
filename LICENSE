@@ -1,0 +1,38 @@
+# GNU AFFERO GENERAL PUBLIC LICENSE
+
+Version 3, 19 November 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+## Preamble
+
+The GNU Affero General Public License is a free, copyleft license for software and other kinds of works, specifically designed to ensure cooperation with the community in the case of network server software.
+
+[... full AGPL-3.0 text ...]
+
+---
+
+## Additional Terms
+
+This launcher incorporates prebuilt binaries from the following projects:
+
+| Component | License | Source |
+|---|---|---|
+| SDL3 | Zlib | https://github.com/libsdl-org/SDL |
+| LWJGL | BSD-3 | https://github.com/LWJGL/lwjgl3 |
+| OpenJDK | GPL-2 + Classpath Exception | https://github.com/adoptium/temurin |
+| MobileGlues | LGPL-2.1 | https://github.com/MobileGL-Dev/MobileGlues |
+
+These binaries are not included in this repository. Download scripts fetch them from their respective sources.
+
+---
+
+Copyright (C) 2026 dijakonal
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
